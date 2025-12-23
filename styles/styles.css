@@ -62,8 +62,8 @@ h1, h2, h3, th, button, summary, label, p, li, td {
    2. THE PROPHECY (Top Ticker)
    ========================================= */
 .prophecy-container {
-    background: linear-gradient(90deg, #000, #1a1a1a, #000);
-    color: #888;
+    background-color: #F8C8DC;
+    color: #FFFFFF;
     text-align: center;
     padding: 12px;
     font-size: 0.85rem;
@@ -80,7 +80,7 @@ h1, h2, h3, th, button, summary, label, p, li, td {
 }
 
 .prophecy-container strong {
-    color: var(--gold-primary);
+    color: #E0218A;
 }
 
 /* =========================================
@@ -112,7 +112,7 @@ header h2 {
 }
 
 .nav-container a {
-    color: #fff;
+    color: #E0218A;
     text-decoration: none;
     font-size: 0.9rem;
     font-weight: bold;
@@ -135,7 +135,7 @@ header h2 {
 }
 
 .nav-container a:hover {
-    color: var(--gold-primary);
+    color: #FFFFFF;
     text-shadow: 0 0 10px var(--gold-primary);
 }
 
@@ -179,7 +179,7 @@ header h2 {
 
 .hero-banner h1 {
     font-size: 4rem; 
-    background: linear-gradient(to bottom, #fff, var(--gold-primary));
+    background: linear-gradient(to bottom, #ffffff, #E0218A);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: 0 10px 20px rgba(0,0,0,0.8);
@@ -190,7 +190,7 @@ header h2 {
 .hero-banner p {
     font-family: var(--font-header);
     font-size: 1.1rem;
-    color: #ddd;
+    color: #E0218A;
     background: rgba(0,0,0,0.6);
     padding: 10px 30px;
     border: 1px solid var(--gold-dim);
@@ -227,7 +227,7 @@ main {
 }
 
 section {
-    background: var(--glass-panel);
+    background-color: #E0218A;
     border: 1px solid #333;
     padding: 50px;
     margin-bottom: 100px;
@@ -363,14 +363,16 @@ table {
 thead th {
     text-align: left;
     padding: 20px;
-    color: var(--gold-primary);
+    color: #E0218A;
     border-bottom: 2px solid var(--gold-primary);
     font-size: 1.1rem;
+    background-color: black;
 }
 
 tbody tr { background: #151515; transition: 0.2s; }
 
 tbody td {
+    background-color: black;
     padding: 20px;
     border-top: 1px solid #333;
     border-bottom: 1px solid #333;
@@ -457,7 +459,7 @@ footer {
     text-align: center;
     padding: 60px;
     border-top: 1px solid #333;
-    background: #080808;
+    background: #F8C8DC;
 }
 
 footer a {
@@ -470,7 +472,7 @@ footer a {
 }
 
 footer a:hover {
-    color: var(--gold-primary);
+    color: #E0218A;
     border-color: var(--gold-primary);
     box-shadow: 0 0 15px var(--gold-glow);
 }
